@@ -1,5 +1,5 @@
-// functionを定義して実行する
-function check(type) {
+// functionを定義する
+export function check(type) {
     console.log(`--- ${type} のテスト ---`);
 
     if (type === "var") {
@@ -26,5 +26,8 @@ function check(type) {
     }
 }
 
-// 実行時に渡した引数をそのまま関数に入れる
-check(process.argv[2]);
+// // 実行時に渡した引数をそのまま関数に入れる
+// check(process.argv[2]);
+
+// // ruqireでexport
+// module.exports = { check };
