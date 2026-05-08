@@ -19,5 +19,8 @@
   "main": "hello.js",
   "scripts": {
     "test": "node hello.js c"
+  },
+  "dependencies": {
+    "yargs": "^18.0.0"
   }
 }
